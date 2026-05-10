@@ -17,18 +17,18 @@
 ## Test Results
 
 **Graph used:** Nodes A, B, C, D — Edges: A-B(1), A-C(4), B-C(2), B-D(6), C-D(3)
-```
+
 | Start | End | Shortest Path | Total Cost |
 |-------|-----|---------------|------------|
 | A | D | A → B → C → D | 6 |
 | A | C | A → B → C | 3 |
 | A | B | A → B | 1 |
 | B | D | B → C → D | 5 |
-```
+
 **Disconnected test:** Adding isolated node E with no edges — `costs[E]` stays `∞`, program correctly prints "No path found."
 
 **Algorithm trace (A → D):**
-```
+
 | Iteration | Current | costs[A] | costs[B] | costs[C] | costs[D] | Processed |
 |-----------|---------|----------|----------|----------|----------|-----------|
 | Init | — | 0 | ∞ | ∞ | ∞ | [] |
@@ -36,7 +36,7 @@
 | 2 | B | 0 | 1 | 3 | 7 | [A, B] |
 | 3 | C | 0 | 1 | 3 | 6 | [A, B, C] |
 | 4 | D | 0 | 1 | 3 | 6 | [A, B, C, D] |
-```
+
 ---
 
 ## Reflection Questions
