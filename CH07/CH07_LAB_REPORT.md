@@ -1,4 +1,4 @@
-## Lab Report
+# Lab 07: Binary Trees
 
 ### Student Information
 - **Name:** [Khoa Doan]
