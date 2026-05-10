@@ -1,4 +1,4 @@
-# Lab 5: Hash Table
+# Lab 05: Hash Table
 
 **Name:** Khoa Doan  
 **Date:** 02/28/2026
