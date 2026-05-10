@@ -2,6 +2,7 @@
 
 - **Name:** Khoa Doan 
 - **Date:** 05/10/2026
+- **Course:** COSC 2436
 ---
 ## Algorithm Summary
 
