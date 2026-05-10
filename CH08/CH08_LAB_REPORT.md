@@ -5,13 +5,13 @@
 - **Date:** 04/04/2026
 
 ### Algorithm Analysis
-
+---
 #### AVL Trees
 - **Balance Factor Range:** -1, 0, or 1
 - **Why rebalance?** An unbalanced BST can degrade to O(n) for all operations.
   efficient operations regardless of insertion order
 - **Time Complexity (all operations):** O(log n)
-
+---
 #### Rotation Cases
 | Case | Imbalance                              | Fix                                      |
 |------|----------------------------------------|------------------------------------------|
@@ -19,7 +19,7 @@
 | RR   | Right-heavy; new node in right-right   | Single left rotation                     |
 | LR   | Left-heavy; new node in left-right     | Left rotate left child, then right rotate|
 | RL   | Right-heavy; new node in right-left    | Right rotate right child, then left rotate|
-
+---
 1. **Why is an unbalanced BST bad?**  
    In the worst case (e.g., inserting already-sorted data), a plain BST becomes a linear chain.
    Every operation — search, insert, delete — degrades from O(log n) to O(n), which defeats the
