@@ -2,7 +2,7 @@
 ## Student Information
 - **Name:** Khoa Doan
 - **Date:** 02/15/2026
-
+---
 ## Recursion Concepts
 
 ### Two Parts of Every Recursive Function
@@ -11,7 +11,7 @@
 
 ### The Call Stack
 [The call stack keeps track of function calls. Each recursive call adds a new layer to the stack. When the base case is reached, the stack unwinds as each function returns its result. ]
-
+---
 ## Function Analysis
 
 | Function | Base Case | Recursive Case | Time Complexity |
@@ -21,7 +21,7 @@
 | recursive_sum | empty list | first + sum(rest) | O(n) |
 | recursive_count | empty list | 1 + count(rest) | O(n) |
 | recursive_max | single item | max(first, max(rest)) | O(n) |
-
+---
 ## Reflection Questions
 
 1. What happens if you forget the base case?\
