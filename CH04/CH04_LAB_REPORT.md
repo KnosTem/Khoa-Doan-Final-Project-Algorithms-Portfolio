@@ -1,7 +1,7 @@
 # Lab 04: Quicksort
 
-**Name:** [Your Name]  
-**Date:** [Date]
+**Name:** Khoa Doan
+**Date:** 02/22/2026
 
 ## Quicksort Concepts
 
