@@ -2,7 +2,7 @@
 
 - **Name:** Khoa Doan 
 - **Date:** 05/10/2026
-
+---
 ## Algorithm Summary
 
 **Selection Sort** — O(n²) time, O(1) space
@@ -18,7 +18,7 @@ Finds the smallest element, swaps it to the front, then repeats for the remainin
 | Insert    | O(n)  | O(1)*       | Arrays shift elements; linked lists rewire pointers |
 | Delete    | O(n)  | O(1)*       | Same as insert |
 
-
+---
 ## Test Results
 
 Selection Sort: 190 comparisons, 19 swaps
@@ -26,7 +26,7 @@ Selection Sort: 190 comparisons, 19 swaps
 Smallest → McAllen: 142,210
 Largest  → Houston: 2,304,580
 
-
+---
 ## Reflection
 
 1. **Why O(n²)?**\
