@@ -1,6 +1,6 @@
 # Lab 06: Breadth-First Search
 
-## Student Information
+### Student Information
 **Name:** Khoa Doan  
 **Date:** 03/08/2026
 ---
