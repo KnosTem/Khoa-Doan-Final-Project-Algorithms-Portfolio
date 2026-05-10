@@ -43,10 +43,10 @@ quicksort([3, 5, 2, 1, 4])
 
 ## Reflection
 
-1. **Already sorted + first-element pivot?**\ Worst case — every call puts all elements in `greater` and nothing in `less`, making n recursive calls instead of log n. Performance degrades to O(n²).
+1. **Already sorted + first-element pivot?**  Worst case — every call puts all elements in `greater` and nothing in `less`, making n recursive calls instead of log n. Performance degrades to O(n²).
 
-2. **Better pivot selection?**\ Pick a random element, or use the "median of three" (first, middle, last) to reduce the chance of hitting worst-case splits.
+2. **Better pivot selection?**  Pick a random element, or use the "median of three" (first, middle, last) to reduce the chance of hitting worst-case splits.
 
-3. **Quicksort vs others?**\ Faster in practice than bubble sort (O(n²)) due to better cache behavior. Similar average speed to merge sort (both O(n log n)) but quicksort is in-place while merge sort needs extra memory.
+3. **Quicksort vs others?**  Faster in practice than bubble sort (O(n²)) due to better cache behavior. Similar average speed to merge sort (both O(n log n)) but quicksort is in-place while merge sort needs extra memory.
 
-4. **Why `array[1:]` not `array`?**\ The pivot is `array[0]`, so we only partition the *remaining* elements. Using `array` would include the pivot in both partitions, causing infinite recursion.
+4. **Why `array[1:]` not `array`?**  The pivot is `array[0]`, so we only partition the *remaining* elements. Using `array` would include the pivot in both partitions, causing infinite recursion.
