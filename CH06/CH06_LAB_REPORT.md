@@ -3,6 +3,7 @@
 
 - **Name:** Khoa Doan  
 - **Date:** 03/08/2026
+- **Course:** COSC 2436
 ---
 ## Graph Concepts
 
