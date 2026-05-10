@@ -5,7 +5,7 @@
 - **Date:** 04/19/2026  
 
 
-# Algorithm Understanding
+## Algorithm Understanding
 
 **What type of problem is this algorithm solving?**  
 This is an optimization/approximation problem — specifically a bin packing problem, which is a classic NP-hard combinatorial optimization challenge. The goal is to fit as many boxes as possible into a truck of fixed volume without exceeding its capacity
@@ -18,7 +18,7 @@ The algorithm selects the largest remaining box that still fits within the truck
 
 
 
-# Implementation Questions
+## Implementation Questions
 
 **Why do we sort the boxes in descending order of volume before packing?**  
 Sorting in descending order ensures we try to place the biggest boxes first. This typically leads to better space utilization because large boxes are harder to fit later once only small gaps remain.
@@ -31,7 +31,7 @@ used_volume acts as a running total of how much of the truck's capacity has been
 
 
 
-# Extension: Dimension Constraints
+## Extension: Dimension Constraints
 
 **Why is checking only volume not sufficient for real-world packing?**  
 Volume alone treats a box as a flexible blob of space, but physical boxes have fixed shapes. A box might have a smaller volume than the truck's remaining space yet still be too long, wide, or tall to fit  within its interior dimensions.
@@ -46,7 +46,7 @@ Add a dimension check inside the loop before appending a box to packed_boxes. Si
 
 
 
-# Reflection Questions
+## Reflection Questions
 
 **What is a limitation of this greedy approach? Provide a scenario where it fails to find the optimal solution.**  
 The greedy approach can miss combinations of smaller boxes that collectively fill the truck better. Example: Truck volume = 10. Boxes have volumes [6, 5, 5]. The greedy algorithm picks the box of volume 6 first (used = 6), then finds neither 5-unit box fits (6 + 5 = 11 > 10). It packs only 6 units. The optimal solution would be the two 5-unit boxes, packing 10 units total.
