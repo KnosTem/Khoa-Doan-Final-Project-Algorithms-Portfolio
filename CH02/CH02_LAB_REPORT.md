@@ -34,4 +34,4 @@ Largest  → Houston: 2,304,580
 
 2. **Linked list over array?** When inserting/deleting at the head frequently, or when size changes unpredictably.
 
-3. **Why Python uses arrays by default?** O(1) index access is the most common operation, and contiguous memory makes iteration fast. `collections.deque` exists for cases needing O(1) head operations.
+3. **Why Python uses arrays by default?** O(1) index access is the most common operation, and contiguous memory makes iteration fast. 
