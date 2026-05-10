@@ -1,4 +1,4 @@
-# Lab 1: Binary Search
+# Lab 01: Binary Search
 
 ## Student Information
 - **Name:** Khoa Doan
