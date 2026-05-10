@@ -4,7 +4,7 @@
 - **Name:** Khoa Doan
 - **Date:** 04/19/2026  
 
-
+---
 ## Algorithm Understanding
 
 **What type of problem is this algorithm solving?**  
@@ -17,7 +17,7 @@ No. A greedy algorithm makes the locally optimal choice at each step, but this d
 The algorithm selects the largest remaining box that still fits within the truck's remaining capacity
 
 
-
+---
 ## Implementation Questions
 
 **Why do we sort the boxes in descending order of volume before packing?**  
@@ -30,7 +30,7 @@ Small boxes would be packed first, potentially filling up the truck with many ti
 used_volume acts as a running total of how much of the truck's capacity has been consumed. It allows us to check, before adding each new box, whether that box would push us over the truck's volume limit. Without it, we'd have no way to enforce the capacity constraint.
 
 
-
+---
 ## Extension: Dimension Constraints
 
 **Why is checking only volume not sufficient for real-world packing?**  
@@ -45,7 +45,7 @@ However, the box is 10 units long and the truck is only 4 units in every dimensi
 Add a dimension check inside the loop before appending a box to packed_boxes. Since boxes can be rotated, we'd check all axis permutations of the box against the truck dimensions:
 
 
-
+---
 ## Reflection Questions
 
 **What is a limitation of this greedy approach? Provide a scenario where it fails to find the optimal solution.**  
