@@ -4,7 +4,7 @@
 - **Name:** Khoa Doan
 - **Date:** 05/10/2026
 - **Course:** COSC 2436
-
+---
 ## Algorithm Summary
 
 ### Linear Search
@@ -12,7 +12,7 @@ Checks each element one by one. O(n) time. Use it when the data is unsorted, or 
 
 ### Binary Search
 Repeatedly halves a sorted array to find the target. O(log n) time. When the data is already sorted and you need to search it repeatedly. The larger the dataset, the bigger the payoff.
-
+---
 ## Test Results
  | Target | Linear (ms) | Binary (ms) | Speedup |
  |--------|-------------|-------------|---------|
