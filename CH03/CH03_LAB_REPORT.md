@@ -24,13 +24,13 @@
 
 ## Reflection Questions
 
-1. What happens if you forget the base case?
+1. What happens if you forget the base case?\
 The function will call itself infinitely, leading to a stack overflow error
 
-2. Why is the naive Fibonacci implementation inefficient?
+2. Why is the naive Fibonacci implementation inefficient?\
 The naive recursive Fibonacci recalculates the same values many time, creating exponential time complexity O(2^n)
 
-3. Draw the call stack for fact(4).
+3. Draw the call stack for fact(4).\
 fact(4)
     ->4*fact(3)
         ->3*fact(2)
