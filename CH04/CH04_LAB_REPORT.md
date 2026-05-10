@@ -2,6 +2,7 @@
 
 - **Name:** Khoa Doan
 - **Date:** 02/22/2026
+- **Course:** COSC 2436
 ---
 ## Quicksort Concepts
 
