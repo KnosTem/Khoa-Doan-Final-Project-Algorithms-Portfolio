@@ -1,4 +1,4 @@
-# Lab 6: Breadth-First Search
+# Lab 06: Breadth-First Search
 
 **Name:** Khoa Doan  
 **Date:** 03/08/2026
