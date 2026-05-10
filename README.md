@@ -34,6 +34,7 @@ Each lab is a standalone Python program. Navigate into the chapter folder
 and run the main file:
 
 cd CH01
+
 python3 main.py
  
 ## Requirements
