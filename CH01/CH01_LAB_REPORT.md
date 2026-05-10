@@ -14,7 +14,7 @@ Checks each element one by one. O(n) time. Use it when the data is unsorted, or 
 Repeatedly halves a sorted array to find the target. O(log n) time. When the data is already sorted and you need to search it repeatedly. The larger the dataset, the bigger the payoff.
 ---
 ## Test Results
-```
+
  | Target | Linear (ms) | Binary (ms) | Speedup |
  |--------|-------------|-------------|---------|
  |      1 |   0.00286   |   0.04482   |  0.06x  |
@@ -29,4 +29,3 @@ Repeatedly halves a sorted array to find the target. O(log n) time. When the dat
  |    200 |   0.06604   |   0.00215   | 30.78x  | (not found)
 
  Lab Challenge: log2(128) = 7 steps maximum
-```
