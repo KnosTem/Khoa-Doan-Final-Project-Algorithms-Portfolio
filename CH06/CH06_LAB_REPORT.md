@@ -33,8 +33,7 @@ BFS counts the fewest edges, not real-world distance. Houston → El Paso is 2 h
 
 3. **BFS vs DFS?**  
 Use BFS for shortest path by hops. Use DFS when you just need to know if a path exists or want to explore all possible routes.
----
 
-## What I Learned
 
-I learned how to represent a graph using an adjacency list and how to implement BFS using a queue. I also learned why BFS guarantees the shortest path in an unweighted graph — because it expands outward evenly in all directions before going deeper.
+## Challenges
+The trickiest part was tracking the path alongside the BFS traversal. A basic BFS only visits nodes, so I had to store the full path in the queue as a list alongside each node so I could return the complete route when the destination was reached.
