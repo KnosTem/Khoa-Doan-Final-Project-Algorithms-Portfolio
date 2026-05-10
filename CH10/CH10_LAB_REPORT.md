@@ -2,7 +2,8 @@
 
 ## Student Information
 - **Name:** Khoa Doan
-- **Date:** 04/19/2026  
+- **Date:** 04/19/2026
+- **Course:** COSC 2436
 
 ---
 ## Algorithm Understanding
