@@ -1,8 +1,8 @@
 # Chapter 1 Lab Report: Binary Search
 
 ## Student Information
-- **Name:** [Khoa Doan]
-- **Date:** [05/10/2026]
+- **Name:** Khoa Doan
+- **Date:** 05/10/2026
 - **Course:** COSC 2436
 
 ## Algorithm Summary
