@@ -43,7 +43,7 @@ quicksort([3, 5, 2, 1, 4])
 
 ## Reflection
 
-1. **Already sorted + first-element pivot?**  Worst case — every call puts all elements in `greater` and nothing in `less`, making n recursive calls instead of log n. Performance degrades to O(n²).
+1. **Already sorted + first-element pivot?**   Worst case — every call puts all elements in `greater` and nothing in `less`, making n recursive calls instead of log n. Performance degrades to O(n²).
 
 2. **Better pivot selection?**  Pick a random element, or use the "median of three" (first, middle, last) to reduce the chance of hitting worst-case splits.
 
