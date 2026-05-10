@@ -1,7 +1,7 @@
 # Lab 05: Hash Table
 
-**Name:** Khoa Doan  
-**Date:** 02/28/2026
+- **Name:** Khoa Doan  
+- **Date:** 02/28/2026
 ---
 ## Key Concepts
 
