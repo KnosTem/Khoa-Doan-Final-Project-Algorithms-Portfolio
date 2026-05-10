@@ -2,7 +2,7 @@
 
 - **Name:** Khoa Doan
 - **Date:** 02/22/2026
-
+---
 ## Quicksort Concepts
 
 **Divide and Conquer:** Quicksort breaks the problem into smaller subproblems — pick a pivot, split the array into elements smaller and larger than it, then sort each half recursively.
@@ -11,7 +11,7 @@
 1. **Choose pivot** — pick the first element as the reference point
 2. **Partition** — split remaining elements into `less` (≤ pivot) and `greater` (> pivot)
 3. **Recurse and combine** — sort each partition, then join: `quicksort(less) + [pivot] + quicksort(greater)`
-
+---
 ## Tracing quicksort([3, 5, 2, 1, 4])
 
 quicksort([3, 5, 2, 1, 4])
@@ -40,7 +40,7 @@ quicksort([3, 5, 2, 1, 4])
 | Average | O(n log n) | Random data produces roughly balanced splits on average |
 | Worst   | O(n²)      | Already-sorted data with first-element pivot creates one empty partition every time — n levels instead of log n |
 
-
+---
 ## Reflection
 
 1. **Already sorted + first-element pivot?**\
