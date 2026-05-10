@@ -1,14 +1,14 @@
-# Chapter 11: Knapsack Problem — Dynamic Programming — Lab Report
+# Chapter 11:Dynamic Programming
 
 ## Student Information
 - **Name:** Khoa Doan
-- **Date:** [Date]
+- **Date:** 04/26/2026
 - **Course:** COSC 2436
 
 ---
 
 ## Algorithm Summary
-- **How it works:** The knapsack algorithm builds a 2D grid where each cell `grid[i][w]` stores the best list of items using only the first `i` items within a weight budget of `w`. For each cell, it compares two options — including or excluding the current item — and keeps whichever yields the higher total value. Because each subproblem is solved once and stored, later cells can build on earlier results without recomputation.
+- **How it works:** It builds a 2D grid where each cell `grid[i][w]` stores the best list of items using only the first `i` items within a weight budget of `w`. For each cell, it compares two options — including or excluding the current item — and keeps whichever yields the higher total value. Because each subproblem is solved once and stored, later cells can build on earlier results without recomputation.
 - **Time complexity:** O(n × W), where n is the number of items and W is the knapsack capacity. Each of the n rows fills W cells, and each cell does constant-time work (one comparison).
 - **When to use it:** Best suited for optimization problems with a fixed constraint (weight, budget, or time) where you must select a subset of items to maximize total value. Common real-world applications include resource allocation, cargo loading, and portfolio optimization.
 
