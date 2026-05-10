@@ -2,7 +2,7 @@
 
 **Name:** Khoa Doan  
 **Date:** 03/08/2026
-
+---
 ## Graph Concepts
 
 **Adjacency List:** Each city keeps a list of its direct neighbors. Space-efficient for sparse graphs and O(1) to add an edge.
@@ -13,7 +13,7 @@
 3. Add all unvisited neighbors to the queue and mark them visited
 4. Repeat until destination is found or queue is empty
 
-
+---
 ## Test Results
 
 | Start   | End      | Path                            | Edges |
@@ -22,7 +22,7 @@
 | Houston | McKinney | Houston → Dallas → Plano → McKinney | 3 |
 | Dallas  | Laredo   | Dallas → Austin → San Antonio → Laredo | 3 |
 
-
+---
 ## Reflection
 
 1. **Why a queue, not a stack?**  
