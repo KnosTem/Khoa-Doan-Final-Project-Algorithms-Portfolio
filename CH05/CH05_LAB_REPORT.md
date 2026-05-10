@@ -2,14 +2,14 @@
 
 **Name:** Khoa Doan  
 **Date:** 02/28/2026
-
+---
 ## Key Concepts
 
 **Hash table:** A data structure that stores key-value pairs. A hash function converts each key into an index, allowing near-instant lookups instead of scanning the whole list.
 
 **Linear probing:** When two keys hash to the same index (collision), linear probing steps forward one slot at a time until an empty slot is found. The same stepping happens during search.
 
-
+---
 ## Tracing Exercise
 
 Starting with `HashTable(10)`, inserting apple, banana, orange (assume hash indices 1, 2, 1):
@@ -39,7 +39,7 @@ State after all insertions:
 | Search    | O(1)        | O(n)       |
 
 Worst case happens when many keys collide and linear probing must scan most of the table.
-
+---
 ## Reflection
 
 1. **Advantages of hash tables?**\
