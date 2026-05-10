@@ -1,8 +1,8 @@
 # Lab 06: Breadth-First Search
 
-### Student Information
-**Name:** Khoa Doan  
-**Date:** 03/08/2026
+
+- **Name:** Khoa Doan  
+- **Date:** 03/08/2026
 ---
 ## Graph Concepts
 
