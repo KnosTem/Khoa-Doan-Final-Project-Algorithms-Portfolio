@@ -3,6 +3,7 @@
 ### Student Information
 - **Name:** [Khoa Doan]
 - **Date:** [03/28/2026]
+- **Course:** COSC 2436
 ---
 ### Algorithm Analysis
 
