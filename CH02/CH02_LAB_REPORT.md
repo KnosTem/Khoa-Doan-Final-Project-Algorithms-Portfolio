@@ -1,4 +1,4 @@
-# Lab 2: Selection Sort
+# Lab 02: Selection Sort
 
 - **Name:** Khoa Doan 
 - **Date:** 05/10/2026
