@@ -30,8 +30,11 @@ Largest  → Houston: 2,304,580
 
 ## Reflection
 
-1. **Why O(n²)?** Two nested loops — for each of n positions, it scans all remaining elements. Total comparisons = n×(n−1)/2.
+1. **Why O(n²)?**
+   Two nested loops — for each of n positions, it scans all remaining elements. Total comparisons = n×(n−1)/2.
 
-2. **Linked list over array?** When inserting/deleting at the head frequently, or when size changes unpredictably.
+3. **Linked list over array?**
+   When inserting/deleting at the head frequently, or when size changes unpredictably.
 
-3. **Why Python uses arrays by default?** O(1) index access is the most common operation, and contiguous memory makes iteration fast. 
+5. **Why Python uses arrays by default?**
+   O(1) index access is the most common operation, and contiguous memory makes iteration fast. 
