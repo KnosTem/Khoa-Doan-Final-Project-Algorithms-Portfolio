@@ -1,7 +1,7 @@
 # Lab 2: Selection Sort
 
 **Name:** Khoa Doan 
-**Date:** 05/10/2026
+**Date:** .05/10/2026
 
 ## Algorithm Summary
 
