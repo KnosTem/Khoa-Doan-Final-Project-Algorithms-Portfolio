@@ -2,6 +2,7 @@
 ## Student Information
 - **Name:** Khoa Doan
 - **Date:** 02/15/2026
+- **Course:** COSC 2436
 ---
 ## Recursion Concepts
 
