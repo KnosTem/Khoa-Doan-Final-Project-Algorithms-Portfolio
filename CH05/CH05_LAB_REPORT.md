@@ -42,7 +42,7 @@ Worst case happens when many keys collide and linear probing must scan most of t
 
 ## Reflection
 
-1. **Advantages of hash tables?** Average O(1) insert and lookup — far faster than searching a list (O(n)) or a tree (O(log n)) for most use cases.
+1. **Advantages of hash tables?**\ Average O(1) insert and lookup — far faster than searching a list (O(n)) or a tree (O(log n)) for most use cases.
 
 2. **How does the hash function affect performance?** A poor hash function clusters keys at the same indices, causing frequent collisions and degrading performance toward O(n). A good one distributes keys evenly.
 
