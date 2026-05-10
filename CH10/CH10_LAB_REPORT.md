@@ -1,9 +1,9 @@
 # Lab 10: Truck Parking
+
 ## Student Information
-**Name:** Khoa Doan 
-**Date:** 04/19/2026
-**Algorithm Analysis:** Greedy Truck Packing Algorithm  
----
+- **Name:** Khoa Doan
+- **Date:** 04/19/2026  
+
 
 # Algorithm Understanding
 
@@ -16,7 +16,7 @@ No. A greedy algorithm makes the locally optimal choice at each step, but this d
 **What is the greedy choice made in this algorithm?**  
 The algorithm selects the largest remaining box that still fits within the truck's remaining capacity
 
----
+
 
 # Implementation Questions
 
@@ -29,7 +29,7 @@ Small boxes would be packed first, potentially filling up the truck with many ti
 **Why do we keep track of `used_volume`?**  
 used_volume acts as a running total of how much of the truck's capacity has been consumed. It allows us to check, before adding each new box, whether that box would push us over the truck's volume limit. Without it, we'd have no way to enforce the capacity constraint.
 
----
+
 
 # Extension: Dimension Constraints
 
@@ -44,7 +44,7 @@ However, the box is 10 units long and the truck is only 4 units in every dimensi
 **How would you modify the algorithm to check dimension constraints before packing a box?**  
 Add a dimension check inside the loop before appending a box to packed_boxes. Since boxes can be rotated, we'd check all axis permutations of the box against the truck dimensions:
 
----
+
 
 # Reflection Questions
 
