@@ -3,7 +3,7 @@
 ### Student Information
 - **Name:** [Khoa Doan]
 - **Date:** [03/28/2026]
-
+---
 ### Algorithm Analysis
 
 #### Binary Search Tree
@@ -17,7 +17,7 @@
 | Preorder  | Root, Left, Right | Copying a tree |
 | Inorder   | Left, Root, Right | Getting sorted elements |
 | Postorder | Left, Right, Root | Deleting a tree |
-
+---
 ### Reflection Questions
 
 1. Why does inorder traversal give sorted output?
