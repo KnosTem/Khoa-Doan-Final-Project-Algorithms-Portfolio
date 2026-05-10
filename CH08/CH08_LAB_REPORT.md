@@ -4,9 +4,9 @@
 - **Name:** Khoa Doan
 - **Date:** 04/04/2026
 - **Course:** COSC 2436
-
-### Algorithm Analysis
 ---
+### Algorithm Analysis
+
 #### AVL Trees
 - **Balance Factor Range:** -1, 0, or 1
 - **Why rebalance?** An unbalanced BST can degrade to O(n) for all operations.
