@@ -2,6 +2,7 @@
 
 - **Name:** Khoa Doan  
 - **Date:** 02/28/2026
+- **Course:** COSC 2436
 ---
 ## Key Concepts
 
