@@ -21,12 +21,12 @@ Finds the smallest element, swaps it to the front, then repeats for the remainin
 
 ---
 ## Test Results
-
+```
 Selection Sort: 190 comparisons, 19 swaps
 
 Smallest → McAllen: 142,210
 Largest  → Houston: 2,304,580
-
+```
 ---
 ## Reflection
 
