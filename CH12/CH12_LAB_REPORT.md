@@ -1,7 +1,8 @@
 ## Student Information
-**Name:** Khoa Doan
-**Date:** 05/03/2026
-**Algorithm Analysis:** K-Nearest Neighbors (KNN) Regression for Bakery Loaf Prediction
+- **Name:** Khoa Doan
+- **Date:** 05/03/2026
+- **Course:** COSC 2436
+
 
 ---
 
