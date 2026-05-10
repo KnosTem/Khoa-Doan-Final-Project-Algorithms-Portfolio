@@ -1,4 +1,4 @@
-# Chapter 1 Lab Report: Binary Search
+# Lab 1: Binary Search
 
 ## Student Information
 - **Name:** Khoa Doan
