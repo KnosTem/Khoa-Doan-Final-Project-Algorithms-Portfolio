@@ -1,4 +1,4 @@
-# Chapter 9: Dijkstra's Algorithm — Lab Report
+# Lab 9: Dijkstra's Algorithm 
 
 ## Student Information
 - **Name:** Khoa Doan
