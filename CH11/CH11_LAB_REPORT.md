@@ -1,4 +1,4 @@
-# Chapter 11:Dynamic Programming
+# Chapter 11: Dynamic Programming
 
 ## Student Information
 - **Name:** Khoa Doan
