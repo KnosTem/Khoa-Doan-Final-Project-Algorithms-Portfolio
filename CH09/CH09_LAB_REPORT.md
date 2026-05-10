@@ -14,20 +14,20 @@
 
 ---
 
-## Core Data Structures
+## Test Results
 
-| Structure | Variable | What It Stores |
-|-----------|----------|----------------|
-| Adjacency dict | `graph` | Maps each node to a dict of its neighbors and edge weights |
-| Cost table | `costs` | Cheapest known total cost to reach each node from start |
-| Parent table | `parents` | Which node we came from on the cheapest known route |
-| Visited set | `processed` | Nodes whose shortest path is finalized and won't be revisited |
+**Graph used:** Nodes A, B, C, D — Edges: A-B(1), A-C(4), B-C(2), B-D(6), C-D(3)
 
----
+| Start | End | Shortest Path | Total Cost |
+|-------|-----|---------------|------------|
+| A | D | A → B → C → D | 6 |
+| A | C | A → B → C | 3 |
+| A | B | A → B | 1 |
+| B | D | B → C → D | 5 |
 
-## Algorithm Trace
+**Disconnected test:** Adding isolated node E with no edges — `costs[E]` stays `∞`, program correctly prints "No path found."
 
-Graph: A-B(1), A-C(4), B-C(2), B-D(6), C-D(3) — tracing from A to D.
+**Algorithm trace (A → D):**
 
 | Iteration | Current | costs[A] | costs[B] | costs[C] | costs[D] | Processed |
 |-----------|---------|----------|----------|----------|----------|-----------|
@@ -37,9 +37,6 @@ Graph: A-B(1), A-C(4), B-C(2), B-D(6), C-D(3) — tracing from A to D.
 | 3 | C | 0 | 1 | 3 | 6 | [A, B, C] |
 | 4 | D | 0 | 1 | 3 | 6 | [A, B, C, D] |
 
-**Shortest path:** A → B → C → D  
-**Total cost:** 6
-
 ---
 
 ## Reflection Questions
@@ -47,20 +44,11 @@ Graph: A-B(1), A-C(4), B-C(2), B-D(6), C-D(3) — tracing from A to D.
 1. **Why does the algorithm initialize all node costs to infinity except the start node?**  
    Infinity acts as a placeholder meaning "not yet reachable." The start node is set to 0 because it costs nothing to already be there. Any real path cost will be lower than infinity, so the first time a neighbor is reached its cost is updated — without infinity as the default, the comparisons that drive updates would have no valid baseline.
 
-2. **Why must all edge weights be non-negative for Dijkstra's to work?**  
-   Dijkstra's assumes that once a node is marked as processed, its cost is finalized. A negative edge weight could allow a path through a later node to retroactively produce a cheaper route to an already-processed node, violating this assumption and causing incorrect results. The Bellman-Ford algorithm handles negative weights instead.
-
-3. **Why do we store edges in both directions?**  
+2. **Why do we store edges in both directions?**  
    Because the graph is undirected — a road between two cities works both ways. Storing only `graph[a][b]` makes the graph effectively directed, so paths that require traversing an edge "backwards" would never be discovered, producing wrong or missing results.
 
-4. **How would a priority queue improve performance?**  
-   `find_lowest_cost_node()` scans every node on every iteration, making it O(V) per call and O(V²) overall. A min-heap always has the smallest element at the top, so the minimum extraction is O(log V) rather than O(V) — this matters significantly for large graphs with many nodes and edges.
-
-5. **How does the `parents` dictionary allow path reconstruction?**  
+3. **How does the `parents` dictionary allow path reconstruction?**  
    Each time a cheaper route to a node is found, `parents[neighbor] = node` records which node we arrived from, creating a chain of backwards pointers to the start. To reconstruct the path we start at the end and follow `parents` until we reach the start, then reverse the collected list to get the correct start-to-end sequence.
-
-6. **What happens when source and destination are disconnected?**  
-   The algorithm processes every reachable node from the start without ever updating the destination's cost, so it stays at `float("inf")`. The code checks for this and returns `None, None`, which the `main()` function catches to print "No path found."
 
 ---
 
