@@ -1,4 +1,4 @@
-# Lab 9: Dijkstra's Algorithm 
+# Lab 09: Dijkstra's Algorithm 
 
 ## Student Information
 - **Name:** Khoa Doan
