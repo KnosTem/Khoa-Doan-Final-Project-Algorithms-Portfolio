@@ -18,7 +18,6 @@ Finds the smallest element, swaps it to the front, then repeats for the remainin
 | Insert    | O(n)  | O(1)*       | Arrays shift elements; linked lists rewire pointers |
 | Delete    | O(n)  | O(1)*       | Same as insert |
 
-*\* O(1) at head only*
 
 ## Test Results
 
