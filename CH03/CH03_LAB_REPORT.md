@@ -1,4 +1,4 @@
-# Lab 3 Recursion
+# Lab 03: Recursion
 ## Student Information
 - **Name:** Khoa Doan
 - **Date:** 02/15/2026
