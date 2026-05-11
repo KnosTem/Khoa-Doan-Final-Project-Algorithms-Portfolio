@@ -37,4 +37,7 @@ Largest  → Houston: 2,304,580
    When inserting/deleting at the head frequently, or when size changes unpredictably.
 
 5. **Why Python uses arrays by default?**\
-    O(1) index access is the most common operation, and contiguous memory makes iteration fast. 
+    O(1) index access is the most common operation, and contiguous memory makes iteration fast.
+
+## Challenges Encountered
+None
