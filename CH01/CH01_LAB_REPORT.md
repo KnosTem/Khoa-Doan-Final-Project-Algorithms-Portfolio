@@ -1,4 +1,4 @@
-# Chapter 1: Binary Search vs Linear Search — Lab Report
+# Lab 1: Binary Search 
 
 ## Student Information
 - **Name:** Khoa Doan
