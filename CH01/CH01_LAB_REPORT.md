@@ -1,4 +1,4 @@
-# Lab 1: Binary Search vs Linear Search 
+# Lab 1: Binary Search
 
 ## Student Information
 - **Name:** Khoa Doan
