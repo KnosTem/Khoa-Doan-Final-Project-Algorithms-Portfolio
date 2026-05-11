@@ -35,3 +35,6 @@
    Red-Black Trees (used in most standard library maps), Splay Trees (self-adjusting via splaying
    recently accessed nodes to the root), B-Trees and B+ Trees (used in databases and filesystems
    for disk-friendly branching), and 2-3 Trees are the most common alternatives.
+---   
+## Challenges Encountered
+None
