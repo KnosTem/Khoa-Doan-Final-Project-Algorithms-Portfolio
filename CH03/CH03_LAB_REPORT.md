@@ -40,3 +40,6 @@ fact(4)
             ->return 2*1 = 2
         ->return 3*2 = 6
     ->return 4*6 = 24
+---   
+## Challenges Encountered
+None
