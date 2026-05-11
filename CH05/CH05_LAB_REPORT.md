@@ -51,3 +51,6 @@ Worst case happens when many keys collide and linear probing must scan most of t
 
 5. **Other collision resolution techniques?**\
    Chaining (each slot holds a linked list of entries), quadratic probing (step size grows quadratically), and double hashing (a second hash function determines the step size).
+---   
+## Challenges Encountered
+None
