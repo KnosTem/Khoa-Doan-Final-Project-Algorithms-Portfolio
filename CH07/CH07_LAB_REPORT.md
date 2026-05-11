@@ -29,3 +29,7 @@
 
 3. What's the difference between BFS and DFS for trees?
    - BFS explores nodes level by level using a queue, while DFS explores as deep as possible along each branch before backtracking, typically using recursion or a stack.
+
+---   
+## Challenges Encountered
+None
