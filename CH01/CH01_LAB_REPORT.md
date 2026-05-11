@@ -36,21 +36,3 @@ Searching in a sorted list of 128 numbers (values 1–128). Item 200 is not in t
 
 **Lab Challenge:** The maximum number of steps for binary search on 128 items is log₂(128) = **7 steps**.
 
----
-
-## Reflection Questions
-
-1. **Why does binary search require a sorted array, but linear search does not?**  
-   Binary search works by comparing the target to the middle element and discarding half the array based on whether the target is higher or lower. This logic only holds if the data is in order — in an unsorted array, eliminating half the elements would risk throwing away the answer. Linear search makes no assumptions about order and simply checks every element, so it works on any array.
-
-2. **Why is binary search O(log n) instead of O(n)?**  
-   Each iteration of binary search halves the remaining search space. Starting from 128 elements, the sizes are 64, 32, 16, 8, 4, 2, 1 — at most 7 steps. In general, the number of halvings needed to reach 1 element from n is log₂(n). Linear search, by contrast, may need to inspect every element in the worst case, giving O(n).
-
-3. **The timing results show binary search is sometimes slower for small or early-hit searches. Why?**  
-   For targets near the beginning of the array (like 1 or 10), linear search finds them in very few steps and returns immediately. Binary search always starts at the middle and takes several iterations even for easy cases, adding overhead. The O(log n) advantage of binary search only becomes significant as the array grows large — on 128 elements the difference is negligible, but on millions of elements it is dramatic.
-
----
-
-## Challenges Encountered
-
-The trickiest part was getting the boundary updates right in binary search. Setting `high = mid - 1` and `low = mid + 1` (rather than `mid`) is essential — without subtracting or adding 1, the loop can get stuck comparing the same middle element repeatedly and never terminate. Tracing through a small example by hand, watching `low` and `high` converge, made the logic clear.
