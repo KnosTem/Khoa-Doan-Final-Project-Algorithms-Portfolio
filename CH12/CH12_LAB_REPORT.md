@@ -18,7 +18,7 @@
 
 **Program output:**
 
-```
+
 Features shape: (20, 3)
 Target shape: (20,)
 
@@ -26,7 +26,7 @@ KNN model trained with k=4
 
 Today's conditions: Weather=4, Weekend/Holiday=1, Game=0
 Predicted loaves to bake: 70.5
-```
+
 
 **Prediction breakdown — identifying the 4 nearest neighbors:**
 
