@@ -63,3 +63,6 @@ Each Box would need a weight attribute. The packing condition would expand to ch
 
 **Why are greedy algorithms often preferred despite not always being optimal?**  
 Greedy algorithms are fast (often O(n log n)) and simple to implement and understand. For many practical problems — especially large-scale ones — finding a near-optimal solution quickly is far more valuable than waiting a prohibitively long time for the perfect answer. 
+---   
+## Challenges Encountered
+None
